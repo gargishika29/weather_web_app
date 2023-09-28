@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: url(img/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #ffffff82;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#weatherData{
+    line-height: 1.8;
+}
+
+.unit-switch{
+    margin-top: 20px;
+}
+
+#error-message{
+    margin-top: 20px;
+}
