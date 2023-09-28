@@ -65,3 +65,18 @@ button {
 #error-message{
     margin-top: 20px;
 }
+
+@media screen and (max-width: 1340px) {
+    body{
+        background-image: url(img/bg.jpg);
+        background-color: #fbfdff;
+    }
+  }
+@media screen and (max-width: 685px) {
+    .container {
+        max-width: 60%;
+    }
+    button{
+        margin-top: 15px;
+    }
+  }
